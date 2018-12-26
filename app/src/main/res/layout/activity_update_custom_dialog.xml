@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDoctorActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <Button
+        android:id="@+id/updateButtonId"
+        android:layout_gravity="center"
+        android:hint="Update"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:background="@drawable/button_shap_design"
+        android:singleLine="false"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--    <android.support.v7.widget.CardView
+            app:cardCornerRadius="20dp"
+            android:id="@+id/addUpdateDoctorInformationEditTextId"
+            app:cardElevation="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/updateButtonId"
+                android:layout_gravity="center"
+                android:hint="Update"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:singleLine="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.CardView>-->
+
+   <!-- <android.support.v7.widget.CardView
+
+        app:cardCornerRadius="20dp"
+        android:id="@+id/addDelectDoctorinformationEditTextId"
+        app:cardElevation="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+        android:id="@+id/deleteButttonId"
+            android:hint=" Delete "
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:backgroundTint="@color/white"
+            android:singleLine="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>-->
+
+    <Button
+        android:id="@+id/deleteButttonId"
+        android:hint=" Delete "
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:background="@drawable/button_shap_design"
+        android:singleLine="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
+
